@@ -306,12 +306,13 @@ class DetailScreen extends StatelessWidget {
                           break;
                         default:
                           return GridItem(
-                              status: "Rest",
-                              time: "4h 45m",
-                              value: "76",
-                              unit: "avg bpm",
-                              image: null,
-                              remarks: "ok"
+                            status: "Rest",
+                            time: "4h 45m",
+                            value: "76",
+                            unit: "avg bpm",
+                            image: null,
+                            remarks: "ok",
+                            color: Constants.darkOrange,
                           );
                           break;
                       }
